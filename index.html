@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body class="main-content">
     <header class="container header active" id="home">
@@ -22,14 +23,12 @@
             </div>
             <div class="right-header">
                 <h1 class="name">
-                    Hi, I'm <span>Vivek.</span>
-                    A Web Developer.
+                    Hi, I'm <span>Vivek Dokku</span>
+                    <span id="write-words">A Web Developer.</span>
+                    
                 </h1>
                 <p>
-                    I'm a Web Developer, I love to create beautiful and functional websites.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque blanditiis sed aut!
-                </p>
+                    I am a full stack developer passionate about creating visually appealing and functionally robust web pages. Proficient in HTML, CSS, JavaScript, React, Node.js, Express.js, Django, MySQL, and MongoDB, I enjoy building comprehensive web applications. With strong skills in Data Structures, Algorithms, and Machine Learning, I aim to solve real-world problems and contribute to innovative projects.                 </p>
                 <div class="btn-con">
                     <a href="" class="main-btn">
                         <span class="btn-text">Download CV</span>
@@ -48,13 +47,7 @@
                 <div class="left-about">
                     <h4>Information About me</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet labore nihil obcaecati consequatur. Debitis error doloremque, 
-                        vero eos vel nemo eius voluptatem dicta tenetur modi. <br /> <br /> La musica
-                        delectus dolore fugiat exercitationem a, 
-                        ipsum quidem quo enim natus accusamus labore dolores nam. Unde.
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Harum non necessitatibus deleniti eum soluta.
+                        I am Dokku Vivek, a B.Tech graduate in Computer Science with a specialization in AI and ML, achieving a CGPA of 7.89. As a full stack developer, I excel in HTML, CSS, JavaScript, React, Node.js, Express.js, Django, MySQL, and MongoDB. I am passionate about creating robust web applications and solving real-world problems. With strong skills in Data Structures, Algorithms, and Machine Learning, 
                     </p>
                     <div class="btn-con">
                         <a href="#" class="main-btn">
@@ -66,26 +59,26 @@
                 <div class="right-about">
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">650+</p>
+                            <p class="large-text">10+</p>
                             <p class="small-text">Projects <br /> Completed</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">10+</p>
-                            <p class="small-text">Years of <br /> experience</p>
+                            <p class="large-text">0+</p>
+                            <p class="small-text">Years of <br /> experience "eager to join an organization"</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">300+</p>
-                            <p class="small-text">Happy <br /> Clients</p>
+                            <p class="large-text">BTECH</p>
+                            <p class="small-text">7.89 <br /> CGPA</p>
                         </div>
                     </div>
                     <div class="about-item">
                         <div class="abt-text">
-                            <p class="large-text">400+</p>
-                            <p class="small-text">Customer <br /> reviews</p>
+                            <p class="large-text">130+</p>
+                            <p class="small-text">Leetcode Problems <br /> Solved</p>
                         </div>
                     </div>
                 </div>
@@ -93,6 +86,24 @@
             <div class="about-stats">
                 <h4 class="stat-title">My Skills</h4>
                 <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">C++</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
                     <div class="progress-bar">
                         <p class="prog-title">html5</p>
                         <div class="progress-con">
@@ -111,6 +122,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="progress-bar">
                         <p class="prog-title">javascript</p>
                         <div class="progress-con">
@@ -139,7 +151,7 @@
                         </div>
                     </div>
                     <div class="progress-bar">
-                        <p class="prog-title">Python</p>
+                        <p class="prog-title">Django</p>
                         <div class="progress-con">
                             <p class="prog-text">70%</p>
                             <div class="progress">
@@ -147,6 +159,25 @@
                             </div>
                         </div>
                     </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">SQL</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">MongoDB</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             <h4 class="stat-title">My Timeline</h4>
@@ -155,60 +186,42 @@
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2010 - present</p>
-                    <h5>Web Developer<span> - Vircrosoft</span></h5>
+                    <p class="tl-duration">2023 - present</p>
+                    <h5>Web Developer<span> - </span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        I am a full stack developer skilled in both front-end and back-end technologies, including HTML, CSS, JavaScript, React, Node.js, Express.js, Django, MySQL, and MongoDB. I am passionate about creating robust and visually appealing web applications.
                     </p>
                 </div>
                 <div class="timeline-item">
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2008 - 2011</p>
-                    <h5>Software Engineer<span> - Boogle, Inc.</span></h5>
+                    <p class="tl-duration">2020 - 2024</p>
+                    <h5>Computer Science Degree(AI&ML)<span> - MARRI LAXMAN REDDY INSTITUTE OF TECHNOLOGY AND MANAGEMENT</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        Graduated with a Bachelor's degree in Computer Science and Engineering, achieving a CGPA of 7.89.
                     </p>
                 </div>
+                
                 <div class="timeline-item">
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
-                    <p class="tl-duration">2016 - 2017</p>
-                    <h5>C++ Programmer<span> - Slime Tech</span></h5>
+                    <p class="tl-duration">2018 - 2020</p>
+                    <h5>Intermediate<span> - Narayana Junior College</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        Completed Higher Secondary Education with a score of 949 out of 1000.
                     </p>
                 </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2009 - 2013</p>
-                    <h5>Business Degree<span> - Sussex University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <p class="tl-duration">2013 - 2016</p>
-                    <h5>Computer Science Degree<span> - Brookes University</span></h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
-                    </p>
-                </div>
+                
                 <div class="timeline-item">
                     <div class="tl-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <p class="tl-duration">2017 - present</p>
-                    <h5>3d Animation<span> - Brighton University</span></h5>
+                    <h5>SSC<span> - K.V.M Talent High School</span></h5>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                        Completed Secondary School Certificate (SSC) with a CGPA of 9.7 out of 10.
                     </p>
                 </div>
             </div>
@@ -226,18 +239,16 @@
                         <img src="img/port1.jpg" alt="">
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3 style="text-align: center;">IMAGE CAPTION 
+                            GENERATOR</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
+                            <a href="https://github.com/Vivekdokku/Image-caption-generator/blob/main/app.py" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
+                            <a href="https://drive.google.com/drive/folders/19hs1VHpUhqdm4BLUzkxAIb3J_MsV09gp?usp=drive_link" class="icon">
+                                <i class="fab fa-google-drive"></i>
                             </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
+                        </div> 
                     </div>
                 </div>
                 <div class="portfolio-item">
@@ -245,16 +256,10 @@
                         <img src="img/port2.jpg" alt="">
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3 style="text-align: center;">Cancer Detection Using SVM Classifiers</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
+                            <a href="https://github.com/Vivekdokku/Quantitative_Analysis_of_Benign_and_Malignant_Tumors_in_Histopathology/blob/main/SVM_BINARY.ipynb" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
@@ -558,6 +563,15 @@
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
+    <script>
+        
+        var typed = new Typed('#write-words', {
+          strings: ['Software Engineer', 'Web Developer'],
+          typeSpeed: 50,
+          loop:true
+        });
+      </script>
+
     <script src="app.js"></script>
 </body>
 </html>
